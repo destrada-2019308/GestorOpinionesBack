@@ -3,6 +3,11 @@ import User from '../user/user.model.js'
 import Post from './post.model.js'
 import { checkUpdate } from '../utils/validator.js'
 
+export const test = (res) => {
+    console.log('test is running');
+    return res.send({message: 'Test is running'})
+}
+
 export const getPosts = async(req, res)=>{
     //const { id } = req.user
     try{
