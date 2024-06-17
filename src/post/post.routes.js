@@ -1,5 +1,5 @@
 import { Router } from "express"
-import { createPost, updatePost, deletePost, getPosts } from '../post/post.controller.js'
+import { createPost, updatePost, deletePost, getPosts, test } from '../post/post.controller.js'
 import { validateJwt } from '../middlewares/validate-jwt.js'
 
 const api = Router()
