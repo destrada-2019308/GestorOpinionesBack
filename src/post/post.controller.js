@@ -3,7 +3,7 @@ import User from '../user/user.model.js'
 import Post from './post.model.js'
 import { checkUpdate } from '../utils/validator.js'
 
-export const test = (res) => {
+export const test = (req, res) => {
     console.log('test is running');
     return res.send({message: 'Test is running'})
 }
